@@ -1,4 +1,4 @@
-FROM node:11.1.0
+FROM node:11.1.0-alpine
 MAINTAINER M Crichton<mcrichton@github.com>
 
 RUN mkdir -p /opt
