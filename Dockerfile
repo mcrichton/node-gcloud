@@ -12,7 +12,8 @@ RUN apk add --no-cache \
 	python \
 	tar \
 	gzip \
-	make
+	make \
+	g++
 
 ENV CLOUDSDK_PYTHON_SITEPACKAGES 1
 RUN wget http://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.zip && unzip google-cloud-sdk.zip && rm google-cloud-sdk.zip
